@@ -1,0 +1,27 @@
+<script type="text/javascript">
+  RED.nodes.registerType("hello-node", {
+    category: "MY Boilerplate",
+    color: "#FF00FF",
+    defaults: {
+      server: { value: "", type: "config-node", required: true },
+      topic: { value: "" }
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: "file.png",
+    label: function() {
+      return this.name || "hello-node";
+    }
+  });
+</script>
+
+<script type="text/html" data-template-name="hello-node">
+  <div class="form-row">
+      <label for="node-input-topic"><i class="icon-tag"></i> Topic</label>
+      <input type="text" id="node-input-topic" placeholder="Topic">
+  </div>
+</script>
+
+<script type="text/html" data-help-name="hello-node">
+  <p>A simple that read config and output the classic "Hello World" message</p>
+</script>

@@ -2,7 +2,6 @@
   "name": "node-red-boilerplate",
   "version": "1.0.0",
   "description": "My own boilerplate to create custon Node-RED nodes",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -18,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/ToolReaz/node-red-boilerplate/issues"
   },
-  "homepage": "https://github.com/ToolReaz/node-red-boilerplate#readme"
+  "homepage": "https://github.com/ToolReaz/node-red-boilerplate#readme",
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/node-red": "^0.20.1",
+    "jest": "^24.9.0",
+    "node-red": "^1.0.3",
+    "node-red-node-test-helper": "^0.2.3"
+  },
+  "node-red": {
+    "nodes": {
+      "config-node": "src/config-node/config.js",
+      "hello-node": "src/hello-node/hello.js"
+    }
+  }
 }
