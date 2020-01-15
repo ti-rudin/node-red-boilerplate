@@ -1,0 +1,22 @@
+{
+  "name": "node-red-boilerplate",
+  "version": "1.0.0",
+  "description": "My own boilerplate to create custon Node-RED nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToolReaz/node-red-boilerplate.git"
+  },
+  "keywords": [
+    "Node-RED"
+  ],
+  "author": "ToolReaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ToolReaz/node-red-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ToolReaz/node-red-boilerplate#readme"
+}
